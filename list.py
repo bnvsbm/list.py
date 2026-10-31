@@ -1,10 +1,8 @@
-list_empty = []
-print(list_empty)
+list1 = [12,45,89,34,34,90,90]
+sum = 0
+for i in list1:
+    sum=sum+i
 
-list_numbers = [15,20,75]
-print(list_numbers)
-
-print(4*list_numbers)
-
-list_numbers.reverse()
-print(list_numbers)
+print(sum/7)
+print(max(list1))
+print(min(list1))
